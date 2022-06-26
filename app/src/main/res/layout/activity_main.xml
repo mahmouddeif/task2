@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:background="@drawable/shape_rectangle"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/personalImage"
+        android:layout_width="124dp"
+        android:layout_height="124dp"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginTop="@dimen/small_margin"
+        android:src="@drawable/photo"
+        app:shapeAppearanceOverlay="@style/roundImageView" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="28dp"
+        android:layout_margin="16dp"
+        android:text="@string/mahmoud_deif"
+        android:textColor="@color/black"
+        android:textSize="@dimen/mid_size_text" />
+
+    <TextView
+        android:id="@+id/button_time"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/small_margin"
+        android:layout_marginTop="@dimen/small_margin2"
+        android:layout_marginEnd="@dimen/mid_margin"
+        android:background="@drawable/shape_button"
+        android:gravity="center"
+        android:text="@string/_3_hr"
+        android:textColor="@color/buttonTextColor"
+        android:textSize="@dimen/small_size_text" />
+
+
+    <TextView
+        android:id="@+id/job_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/very_small_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:text="@string/engineer"
+        android:textColor="@color/buttonJobAndCountryColor"
+        android:textSize="@dimen/small_size_text" />
+
+    <TextView
+        android:id="@+id/my_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/very_large_margin"
+        android:layout_marginTop="@dimen/large_margin"
+        android:text="@string/russian"
+        android:textColor="@color/buttonJobAndCountryColor"
+        android:textSize="@dimen/small_size_text" />
+
+    <ImageView
+        android:id="@+id/location"
+        android:layout_width="13dp"
+        android:layout_height="16dp"
+        android:layout_marginTop="@dimen/very_large_margin2"
+        android:layout_marginStart="@dimen/very_small_margin2"
+        android:background="@drawable/ic_baseline_location_on_24" />
+
+    <TextView
+        android:id="@+id/location_country"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/uk"
+        android:layout_marginTop="@dimen/margin_large_89dp"
+        android:layout_marginStart="@dimen/small_margin_5dp"
+        android:textColor="@color/buttonJobAndCountryColor" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_5_days_ago"
+        android:layout_marginTop="@dimen/margin_90dp"
+        android:layout_marginStart="@dimen/margin_105dp"
+        android:textColor="@color/buttonJobAndCountryColor" />
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_150_reviews"
+        android:layout_marginTop="@dimen/margin_113dp"
+        android:layout_marginStart="@dimen/very_very_small_margin_218dp"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/rate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_4_5"
+        android:textColor="@color/black"
+        android:layout_marginTop="@dimen/margin_113dp"
+        android:layout_marginStart="@dimen/margin_10dp"/>
+
+    <ImageView
+        android:id="@+id/star"
+        android:layout_width="21dp"
+        android:layout_height="21dp"
+        android:background="@drawable/ic_baseline_star_24"
+        android:layout_marginTop="@dimen/margin_121dp"
+        android:layout_marginStart="@dimen/margin_10dp"/>
+</LinearLayout>
