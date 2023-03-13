@@ -13,9 +13,9 @@
     <dimen name="margin_large_89dp">89dp</dimen>
     <dimen name="small_margin_5dp">5dp</dimen>
     <dimen name="margin_90dp">90dp</dimen>
-    <dimen name="margin_105dp">105dp</dimen>
+    <dimen name="margin_105dp">40dp</dimen>
     <dimen name="margin_113dp">113dp</dimen>
-    <dimen name="very_very_small_margin_218dp">-218dp</dimen>
+    <dimen name="very_very_small_margin_218dp">-211dp</dimen>
     <dimen name="margin_10dp">10dp</dimen>
     <dimen name="margin_121dp">121dp</dimen>
 </resources>

@@ -3,8 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_height="wrap_content"
     android:background="@drawable/shape_rectangle"
     android:orientation="horizontal"
     tools:context=".MainActivity">
@@ -15,7 +14,7 @@
         android:layout_height="124dp"
         android:layout_marginStart="@dimen/small_margin"
         android:layout_marginTop="@dimen/small_margin"
-        android:src="@drawable/photo"
+        android:src="@drawable/daniel"
         app:shapeAppearanceOverlay="@style/roundImageView" />
 
     <TextView
@@ -65,50 +64,52 @@
         android:id="@+id/location"
         android:layout_width="13dp"
         android:layout_height="16dp"
-        android:layout_marginTop="@dimen/very_large_margin2"
         android:layout_marginStart="@dimen/very_small_margin2"
+        android:layout_marginTop="@dimen/very_large_margin2"
         android:background="@drawable/ic_baseline_location_on_24" />
 
     <TextView
         android:id="@+id/location_country"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/uk"
-        android:layout_marginTop="@dimen/margin_large_89dp"
         android:layout_marginStart="@dimen/small_margin_5dp"
+        android:layout_marginTop="@dimen/margin_large_89dp"
+        android:text="@string/uk"
         android:textColor="@color/buttonJobAndCountryColor" />
 
     <TextView
+        android:id="@+id/days"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_5_days_ago"
         android:layout_marginTop="@dimen/margin_90dp"
-        android:layout_marginStart="@dimen/margin_105dp"
+        android:layout_marginStart="112dp"
+        android:baselineAligned="false"
+        android:text="@string/_5_days_ago"
         android:textColor="@color/buttonJobAndCountryColor" />
 
     <TextView
         android:id="@+id/reviews"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_150_reviews"
+        android:layout_marginStart="-216dp"
         android:layout_marginTop="@dimen/margin_113dp"
-        android:layout_marginStart="@dimen/very_very_small_margin_218dp"
+        android:text="@string/_150_reviews"
         android:textColor="@color/black" />
 
     <TextView
         android:id="@+id/rate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/_4_5"
-        android:textColor="@color/black"
+        android:layout_marginStart="@dimen/margin_10dp"
         android:layout_marginTop="@dimen/margin_113dp"
-        android:layout_marginStart="@dimen/margin_10dp"/>
+        android:text="@string/_4_5"
+        android:textColor="@color/black" />
 
     <ImageView
         android:id="@+id/star"
         android:layout_width="21dp"
         android:layout_height="21dp"
-        android:background="@drawable/ic_baseline_star_24"
+        android:layout_marginStart="@dimen/margin_10dp"
         android:layout_marginTop="@dimen/margin_121dp"
-        android:layout_marginStart="@dimen/margin_10dp"/>
+        android:background="@drawable/ic_baseline_star_24" />
 </LinearLayout>

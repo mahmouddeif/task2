@@ -6,10 +6,14 @@
         <entry key="..\:/Users/Deif/AndroidStudioProjects/Mydesign/app/src/main/res/drawable/shape_button.xml" value="0.1" />
         <entry key="..\:/Users/Deif/AndroidStudioProjects/Mydesign/app/src/main/res/drawable/shape_rectangle.xml" value="0.1" />
         <entry key="..\:/Users/Deif/AndroidStudioProjects/Mydesign/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/M-Deif/AndroidStudioProjects/mahmoud2/app/src/main/res/drawable/ic_baseline_location_on_24.xml" value="0.112" />
+        <entry key="..\:/Users/M-Deif/AndroidStudioProjects/mahmoud2/app/src/main/res/drawable/shape_button.xml" value="0.1" />
+        <entry key="..\:/Users/M-Deif/AndroidStudioProjects/mahmoud2/app/src/main/res/drawable/shape_rectangle.xml" value="0.1" />
+        <entry key="..\:/Users/M-Deif/AndroidStudioProjects/mahmoud2/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">
